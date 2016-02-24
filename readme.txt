@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: Hall Internet Marketing
 Donate link: http://hallme.com/
-Tags: woocommerce, wholesale
+ags: ecommerce, e-commerce, commerce, woothemes, woocommerce, wholesale, retailer, discount
 Requires at least: 4.4.2
 Tested up to: 4.4.2
 Stable tag: 1.0
