@@ -12,11 +12,14 @@ TODO
 
 == Description ==
 
-TODO
+A WooCommerce extention plugin to add a wholesale customer role and wholesale price option to products.
 
 == Installation ==
 
-TODO
+1. Upload `woocommerce-wholesale` directory to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Add "Wholesale price" information to your products.
+4. Log in as a Wholesale Customer and see the price difference.
 
 == Frequently Asked Questions ==
 
@@ -30,7 +33,8 @@ TODO: Add Screen Shots of the plugin
 
 == Changelog ==
 
-Under development
+= 1.0.0 - Feb 24, 2016 =
+* First Release
 
 == Upgrade Notice ==
 
