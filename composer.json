@@ -1,12 +1,12 @@
 {
-    "name": "TimBHowe/woocommerce-wholesale",
+    "name": "chrislam/woocommerce-wholesale",
     "description": "A WooCommerce extention plugin to add a wholesale customer role and wholesale price option to products.",
     "type": "wordpress-plugin",
     "license": "GPL-2.0",
-    "homepage": "https://www.hallme.com/",
+    "homepage": "https://lam.co.nz/",
     "authors": [
         {
-            "name": "TimBHowe",
+            "name": "chrislam",
             "role": "Developer"
         }
     ],
