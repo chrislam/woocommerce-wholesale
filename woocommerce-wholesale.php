@@ -155,7 +155,7 @@ class WC_Wholesale {
 	 */
 	public function add_variation_wholesale_price_options($loop, $variation_data, $variation) {
 
-		$_wholesale_price = get_post_meta( $variation->ID, '_wholesale_price', true ); ?>
+		$_wholesale_price = get_post_meta( $variation->get_id(), '_wholesale_price', true ); ?>
 
 		<p class="form-row form-row-first">
 			<label><?php echo __( 'Wholesale Price:', 'woocommerce' ) . ' (' . get_woocommerce_currency_symbol() . ')'; ?></label>
