@@ -45,7 +45,7 @@ class WC_Wholesale {
 		add_action( 'woocommerce_save_product_variation', array( $this, 'save_variation_wholesale_price_options' ), 10, 2 );
 
 		// Set the price to the wholesale price.
-		add_filter( 'woocommerce_get_price', array( $this, 'get_wholesale_price' ), 10, 2 );
+		add_filter( 'woocommerce_product_get_price', array( $this, 'get_wholesale_price' ), 10, 2 );
 		add_filter( 'woocommerce_variation_prices_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
 		add_filter( 'woocommerce_variation_prices_regular_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
 		add_filter( 'woocommerce_variation_prices_sale_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
