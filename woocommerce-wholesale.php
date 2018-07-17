@@ -46,6 +46,7 @@ class WC_Wholesale {
 
 		// Set the price to the wholesale price.
 		add_filter( 'woocommerce_product_get_price', array( $this, 'get_wholesale_price' ), 10, 2 );
+		add_filter( 'woocommerce_product_variation_get_price', array( $this, 'get_product_variation_wholesale_price' ), 10, 2 );
 		add_filter( 'woocommerce_variation_prices_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
 		add_filter( 'woocommerce_variation_prices_regular_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
 		add_filter( 'woocommerce_variation_prices_sale_price', array( $this, 'get_variation_wholesale_price' ), 10, 3 );
@@ -204,6 +205,34 @@ class WC_Wholesale {
 
 			// If there is a wholesale price set it as the price
 			if ( $wholesale_price = get_post_meta( $product->get_id(), '_wholesale_price', true ) ) {
+				$price = $wholesale_price;
+			}
+		}
+
+		return $price;
+	}
+
+	/**
+	 * Returns the product variation's regular price.
+	 *
+	 * @param string $price - The price
+	 * @param obj $variation - The product variation object
+	 *
+	 * @return string price
+	 */
+	public function get_product_variation_wholesale_price( $price, $variation ) {
+
+		// If the user is not logged in return normal price.
+		if ( !is_user_logged_in() ) {
+			return $price;
+		}
+
+		// Check the current user is a retailer and set it to the wholesale price
+		$current_user = wp_get_current_user();
+		if ( in_array( 'wholesaler', (array) $current_user->roles ) ) {
+
+			// If there is a wholesale price set it as the price
+			if ( $wholesale_price = get_post_meta( $variation->get_id(), '_wholesale_price', true ) ) {
 				$price = $wholesale_price;
 			}
 		}
