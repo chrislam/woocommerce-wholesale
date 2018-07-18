@@ -1,6 +1,6 @@
 {
     "name": "chrislam/woocommerce-wholesale",
-    "description": "A WooCommerce extention plugin to add a wholesale customer role and wholesale price option to products.",
+    "description": "A WooCommerce extension plugin to add a wholesale customer role and wholesale price option to products.",
     "type": "wordpress-plugin",
     "license": "GPL-3.0",
     "homepage": "https://lam.co.nz/",
