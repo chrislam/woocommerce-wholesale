@@ -23,6 +23,9 @@ To install the plugin just follow the steps below.
 
 ### Changelog
 
+#### 1.1.0 - Jul 18, 2018 ####
+* Changes to support WooCommerce 3
+
 #### 1.0.0 - Feb 24, 2016 ####
 * First Release
 

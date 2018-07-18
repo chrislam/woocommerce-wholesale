@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Wholesale
  * Plugin URI:
  * Description: Add roles and options for wholesale/ customers.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Gladeye
  * Author URI: https://gladeye.com/
  * Text Domain: woocommerce-wholesale

@@ -3,7 +3,7 @@ Contributors: Hall Internet Marketing, Gladeye
 ags: ecommerce, e-commerce, commerce, woothemes, woocommerce, wholesale, retailer, discount
 Requires at least: 4.4.2
 Tested up to: 4.9.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -21,6 +21,9 @@ Originally developed by Tim Howe
 4. Log in as a Wholesale Customer and see the price difference.
 
 == Changelog ==
+
+= 1.1.0 - Jul 18, 2018 =
+* Changes to support WooCommerce 3
 
 = 1.0.0 - Feb 24, 2016 =
 * First Release
