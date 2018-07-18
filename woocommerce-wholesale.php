@@ -4,10 +4,8 @@
  * Plugin URI:
  * Description: Add roles and options for wholesale/ customers.
  * Version: 1.0.0
- * Author: Hall Internet Marketing
- * Author URI: http://hallme.com/
- * Developer: Tim Howe
- * Developer URI: http://hallme.com/
+ * Author: Gladeye
+ * Author URI: https://gladeye.com/
  * Text Domain: woocommerce-wholesale
  * Domain Path: /lang
  *

@@ -3,12 +3,14 @@ WooCommerce Wholesale
 
 ### Description
 
-A WooCommerce extention plugin to add a wholesale customer role and wholesale price option to products.
+A WooCommerce extension plugin to add a wholesale customer role and wholesale price option to products.
+
+Originally developed by [Tim Howe](https://github.com/TimBHowe/woocommerce-wholesale)
 
 **Options:**
 
 * On plugin activation add a Wholesale Customer (wholesaler) user role.
-* Adds a wholesale price field to all product types. Even works with [WooCommerce Subscription](https://www.woothemes.com/products/woocommerce-subscriptions/) plugin.
+* Adds a wholesale price field to all product types.
 
 ### Installation
 
@@ -18,16 +20,6 @@ To install the plugin just follow the steps below.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Add "Wholesale price" information to your products.
 4. Log in as a Wholesale Customer and see the price difference.
-
-### Frequently Asked Questions
-
-**TODO: Should I add FAQs?**
-
-Yes you should, stupid.
-
-### Screenshots
-
-TODO: Add Screen Shots of the plugin
 
 ### Changelog
 
